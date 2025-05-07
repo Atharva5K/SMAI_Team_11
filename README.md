@@ -74,7 +74,7 @@ pip install -r requirements.txt
 
 Pre-trained model weights can be downloaded from:
 
-* [Model Weights (Google Drive)](https://drive.google.com/example)
+* [Model Weights (Google Drive)](https://drive.google.com/drive/folders/1Hbp8axzA06o6_-96sSIk_DWEoj_4j7eJ?usp=drive_link)
 
 Place the downloaded files in `Code/Pickles/`.
 
