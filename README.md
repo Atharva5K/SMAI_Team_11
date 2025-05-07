@@ -54,21 +54,13 @@ Key dependencies:
 
 ## Installation
 
-1. Clone the repository:
-
-   ```bash
-   ```
-
-git clone [https://github.com/your-username/cricket-commentary-analysis.git](https://github.com/your-username/cricket-commentary-analysis.git)
-cd cricket-commentary-analysis
-
 ````
-2. Install dependencies:
+1. Install dependencies:
    ```bash
 pip install -r requirements.txt
 ````
 
-3. Download the dataset and model weights as described below.
+2. Download the dataset and model weights as described below.
 
 ## Model Weights
 
@@ -79,31 +71,27 @@ Pre-trained model weights can be downloaded from:
 Place the downloaded files in `Code/Pickles/`.
 
 ## Directory Structure
-
+Before running the code make sure your directory structure looks as follows
 ```
 cricket-commentary-analysis/
-├── Code/                        # Core code modules
-│   ├── Pickles/                 # Saved ML models
-│   ├── commentary_classifier.py # Zero-shot classification module
-│   └── vAnds.py                 # NLP analysis module
-├── Data/                        # Data directory
-│   ├── COMMENTARY_INTL_MATCH/   # Raw commentary data
-│   ├── Input/                   # Processed input files
-│   └── Visualizations/          # Generated visual outputs
-├── train.py                     # Train the RNN model
-├── eval.py                      # Evaluate model performance
-├── infer.py                     # Inference on new commentary
-├── final.py                     # Main analysis pipeline
-├── commentary_visualizer.py     # Visualization module
-├── cricket_terminal.py          # Terminal styling module
-├── cricket_shape_generator.py   # Word cloud generator
-├── data_ext.py                  # Data extraction script
-├── input.py                     # Input preprocessing script
-├── rnn.py                       # RNN model implementation
-├── scorecard_generator.py       # Scorecard generation
-├── team_extractor.py            # Team info extraction
-├── requirements.txt             # Project dependencies
-└── README.md                    # Project documentation
+├── Code/                        
+│   ├── Pickles/                 
+│   ├── commentary_classifier.py 
+│   └── vAnds.py                 
+├── Data/                      
+│   ├── COMMENTARY_INTL_MATCH/   
+│   ├── Input/                   
+│   └── Visualizations/         
+├── final.py                     
+├── commentary_visualizer.py    
+├── cricket_terminal.py         
+├── data_ext.py                  
+├── input.py                    
+├── rnn.py                    
+├── scorecard_generator.py       
+├── team_extractor.py            
+├── requirements.txt            
+└── README.md                    
 ```
 
 ## Execution Steps
